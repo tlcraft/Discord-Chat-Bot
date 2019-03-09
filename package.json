@@ -1,0 +1,14 @@
+{
+  "name": "game-bot",
+  "version": "1.0.0",
+  "description": "Bot for playing tic-tac-toe and gettings random quotes.",
+  "main": "gameBot.js",
+  "author": "Travis Craft",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  },
+  "scripts": {
+    "start": "node gameBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
