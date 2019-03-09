@@ -1,6 +1,6 @@
 // Import the Discord API
 Discord = require("discord.js");
-http = require("http");
+https = require("https");
 
 //Connect to the API as a user.
 var bot = new Discord.Client();
@@ -40,7 +40,7 @@ bot.login(token);
 // Keep app awake
 setInterval(
   () => {
-    http.get("https://travislcraft-discord-game-bot.herokuapp.com/");
+    https.get("https://travislcraft-discord-game-bot.herokuapp.com/");
   },
   300000
 )
