@@ -1,7 +1,7 @@
 {
   "name": "game-bot",
   "version": "1.0.0",
-  "description": "Bot for playing tic-tac-toe and gettings random quotes.",
+  "description": "Bot for playing tic-tac-toe and retrieving random quotes.",
   "main": "gameBot.js",
   "author": "Travis Craft",
   "dependencies": {
